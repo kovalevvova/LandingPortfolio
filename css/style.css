@@ -37,9 +37,17 @@ h2 {
   font-size: var(--fontsize-title);
 }
 
+.active {
+  display: block;
+}
+
 .conteiner {
   max-width: 940.6px;
   margin: 0 auto;
+}
+
+.burger {
+  display: none;
 }
 
 .nav-bar {
@@ -71,6 +79,7 @@ h2 {
   font-size: 47.34px;
   line-height: 58.61px;
 }
+
 .section-one__disc {
   font-family: var(--medium-family);
   display: flex;
@@ -103,8 +112,12 @@ h2 {
   padding: 50px 0 104px 0;
 }
 
-.section-one__image img {
-  width: 940px;
+.section-one__image-pc {
+  max-width: 940px;
+}
+
+.section-one__image-ad {
+  display: none;
 }
 
 .section-two {
@@ -172,7 +185,7 @@ h2 {
   padding-bottom: 47px;
 }
 
-.portfolio__block {
+.portfolio__blocks {
   width: 936.24px;
   height: 510px;
   margin: 0 auto;

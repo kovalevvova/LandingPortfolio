@@ -1,0 +1,157 @@
+@media (max-width: 992px) {
+  body {
+    padding: 65px 0 90px 0;
+    overflow-x: hidden;
+  }
+
+  body.active {
+    overflow-y: hidden;
+  }
+
+  .conteiner {
+    max-width: 317px;
+    margin: 0 auto;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .header.active {
+    display: block;
+    position: absolute;
+    background: aqua;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  .nav-bar.active {
+    position: absolute;
+    display: grid;
+    height: 383px;
+    width: 100%;
+    border: none;
+    left: 0;
+    top: 0;
+    padding-left: 26px;
+    font-size: var(--fontsize-title);
+    border: none;
+    z-index: 2;
+  }
+
+  .item {
+    display: block;
+    margin-top: 68px;
+  }
+
+  .item:first-child {
+    margin-top: 0;
+  }
+
+  .lang.active {
+    display: block;
+    transform: translate(26px, 71px);
+    width: 66px;
+    height: 20.06px;
+    z-index: 4;
+  }
+
+  .lang p {
+    transform: rotate(270deg);
+    font-size: 16px;
+    line-height: 19.81px;
+  }
+
+  .subt {
+    position: relative;
+    display: block;
+    padding-top: 0px;
+  }
+
+  .section-one__disc {
+    margin-top: 23px;
+  }
+
+  .lang {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    position: absolute;
+    width: 33px;
+    height: 24px;
+    right: 0;
+    top: 10px;
+    cursor: pointer;
+    flex: 0 0 auto;
+    margin: 0 auto;
+    z-index: 4;
+  }
+
+  .burger:before,
+  .burger:after {
+    content: "";
+  }
+
+  .burger span,
+  .burger:after,
+  .burger:before {
+    height: 3.84px;
+    width: 100%;
+    position: absolute;
+    background: black;
+    margin: 0 auto;
+  }
+
+  .burger span {
+    top: 8.8px;
+    transition: 0.6s;
+  }
+
+  .burger:after {
+    bottom: 3px;
+    transition: 0.6s;
+  }
+
+  .burger:before {
+    top: 1px;
+  }
+
+  .burger.active span {
+    opacity: 0;
+    transition: 0.6s;
+  }
+
+  .burger.active:after {
+    top: 9px;
+    transform: rotate(40deg);
+    transition: 0.6s;
+  }
+
+  .burger.active:before {
+    top: 9px;
+    transform: rotate(-40deg);
+    transition: 0.6s;
+  }
+
+  .section-one__image {
+    padding: 0px;
+  }
+
+  .section-one__image-pc {
+    display: none;
+  }
+
+  .section-one__image-ad {
+    display: block;
+    max-width: 316.5px;
+    height: 478px;
+    margin: 36px auto 83px auto;
+  }
+}
