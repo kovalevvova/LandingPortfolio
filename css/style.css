@@ -46,6 +46,14 @@ h2 {
   margin: 0 auto;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  overflow-y: scroll;
+  z-index: 2;
+  background-color: white;
+}
+
 .burger {
   display: none;
 }
@@ -78,6 +86,10 @@ h2 {
 .name {
   font-size: 47.34px;
   line-height: 58.61px;
+}
+
+.section-one {
+  padding-top: 88px;
 }
 
 .section-one__disc {
@@ -258,7 +270,4 @@ h2 {
   margin-top: 46px;
   text-align: center;
   color: var(--color-gray);
-}
-
-.footer__disc {
 }
