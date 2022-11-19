@@ -142,6 +142,10 @@ h2 {
   margin-top: 22px;
 }
 
+.section-two__disc-ad {
+  display: none;
+}
+
 .section-three {
   padding: 91px 0 110px 0;
 }
@@ -200,6 +204,7 @@ h2 {
 .block__disc a {
   color: var(--color-text);
   font-family: var(--medium-family);
+  font-size: var(--fontsize-content);
   line-height: 21.83px;
   text-decoration-line: underline;
   cursor: pointer;
