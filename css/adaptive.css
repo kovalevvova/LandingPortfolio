@@ -61,6 +61,7 @@
     display: none;
   }
 
+
   .lang.active {
     position: fixed;
     display: block;
