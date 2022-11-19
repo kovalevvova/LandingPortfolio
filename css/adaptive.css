@@ -97,11 +97,11 @@
 
   .burger {
     display: block;
-    position: fixed;
+    position: absolute;
     width: 33px;
     height: 24px;
-    right: 30px;
-    top: 65px;
+    right: 0px;
+    top: 6px;
     cursor: pointer;
     flex: 0 0 auto;
     margin: 0 auto;
