@@ -16,6 +16,7 @@ for (let anchor of anchors) {
     document.querySelector("body").classList.toggle("active");
     document.querySelector(".lang").classList.toggle("active");
     document.querySelector(".header").classList.toggle("active");
+
     e.preventDefault();
 
     let blockID = anchor.getAttribute("href");
